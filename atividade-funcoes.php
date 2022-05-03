@@ -8,10 +8,6 @@
 </head>
 <body>
     <?php
-        //$arg1 = 54;
-        //$arg2 = 22;
-        //$op = "+";
-
         function Adicao($arg1, $arg2){
             $res = $arg1 + $arg2;
             return $res;
@@ -43,24 +39,6 @@
         $valor = Divisao(120, 2);
         echo $valor;
         echo "<br>";
-        
-       
-        /*if("+" == $op){
-           $res = Adicao($arg1, $arg2);
-            echo $res;
-        }
-        if("-" == $op){
-           $res = Subtracao($arg1, $arg2);
-            echo $res;
-        }
-        if("*" == $op){
-           $res = Multiplicacao($arg1, $arg2);
-            echo $res;
-        }
-        if("/" == $op){
-           $res = Divisao($arg1, $arg2);
-            echo $res;
-        }*/
     ?>
 </body>
 </html>
