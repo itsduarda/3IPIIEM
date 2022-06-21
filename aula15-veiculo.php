@@ -20,33 +20,33 @@ class Veiculo{
     }
 
     public function Consumo(){
-        echo "<br> Gasto por km ";
+        echo "<br> Gasto por km: ";
     }
 } //fim de classe
 
 //iremos criar um objeto/instancia de uma classe(base)
 
-$obj01 = new Veiculo();
+/*$obj01 = new Veiculo();
 //algumas linguagens usa ponto(.) p ter acesso aos campos/atributos e metodos, porem o PHP USA UMA SETA(->)
 //acessar o campo $id
-echo "Código : " . $obj01->id= 001;
+echo "Código: " . $obj01->id= 001;
 echo "<br>";
-echo "Fabricante : " . $obj01->fabricante= "Ford";
+echo "Fabricante: " . $obj01->fabricante= "Yamaha";
 echo "<br>";
-echo "Modelo : " . $obj01->modelo= "Ranger";
+echo "Modelo: " . $obj01->modelo= "MT600";
 echo "<br>";
-echo "Tipo : " . $obj01->tipo= "Carro";
+echo "Tipo: " . $obj01->tipo= "Moto";
 echo "<br>";
-echo "Ano de fabricação : " . $obj01->ano_fab= "2021";
+echo "Ano de fabricação: " . $obj01->ano_fab= "2021";
 echo "<br>";
-echo "Ano do modelo : " . $obj01->ano_mod= "2022";
+echo "Ano do modelo: " . $obj01->ano_mod= "2022";
 echo "<br>";
-echo "Cor : " . $obj01->cor= "Roxo";
+echo "Cor: " . $obj01->cor= "Verde";
 echo "<br>";
-echo "Combustível : " . $obj01->combustivel= "Diesel";
+echo "Combustível: " . $obj01->combustivel= "Flex";
 echo "<br>";
-$obj01->Destino("Sorocaba", "Paraná");
+$obj01->Destino("Sorocaba", "Santos");
 $obj01->Consumo();
 //mostrar o valor na tela
-//echo "<br>" .  $obj01->id;
+//echo "<br>" .  $obj01->id;*/
 ?>
